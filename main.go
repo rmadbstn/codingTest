@@ -3,12 +3,15 @@ package main
 import (
 	"fmt"
 	"harvey/codingTest/programmers"
+	// 패키지 이름을 올바르게 설정해야 합니다
 )
 
 func main() {
+	result := programmers.SolutionClothes([][]string{
+		{"yellow_hat", "headgear"},
+		{"blue_sunglasses", "eyewear"},
+		{"crow_mask", "headgear"},
+	})
 
-	// fmt.Println(programmers.SolutionMaxAndMin("-1 -2 -3 -4"))
-	// fmt.Println(programmers.SolutiionSaleEvent([]string{"banana", "apple", "rice", "pork", "pot"}, []int{3, 2, 2, 2, 1}, []string{"chicken", "apple", "apple", "banana", "rice", "apple", "pork", "banana", "pork", "rice", "pot", "banana", "apple", "banana"}))
-	// fmt.Println(programmers.SolutiionSaleEvent([]string{"apple"}, []int{10}, []string{"chicken", "apple", "apple", "banana", "rice", "apple", "pork", "banana", "pork", "rice", "pot", "banana", "apple", "banana"}))
-	fmt.Println(programmers.SolutionhIndex([]int{3, 0, 6, 1, 5, 2, 7}))
+	fmt.Println(result)
 }
