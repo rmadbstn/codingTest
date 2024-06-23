@@ -9,7 +9,7 @@ import (
 func main() {
 	result := programmers.SolutionClothes([][]string{
 		{"yellow_hat", "headgear"},
-		{"blue_sunglasses", "eyewear"},
+		{"blue_sunglasses", "eyewearw"},
 		{"crow_mask", "headgear"},
 	})
 
