@@ -7,11 +7,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionClothes([][]string{
-		{"yellow_hat", "headgear"},
-		{"blue_sunglasses", "eyewearw"},
-		{"crow_mask", "headgear"},
-	})
+	result := programmers.SolutionDoublePriority([]string{"I 16", "I -5643", "D -1", "D 1", "D 1", "I 123", "D -1"})
 
 	fmt.Println(result)
 }

@@ -10,7 +10,6 @@ import (
 func SolutionMaxAndMin(s string) string {
 
 	strArr := strings.Split(s, " ")
-
 	var numbers []int
 
 	for _, part := range strArr {
