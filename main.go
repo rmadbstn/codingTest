@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionChangeWord("hit", "cog", []string{"hot", "dot", "dog", "lot", "log"})
+	result := programmers.SolutionRollcake([]int{1, 2, 1, 3, 1, 4, 1, 2})
 
 	fmt.Println(result)
 }
