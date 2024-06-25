@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionDoublePriority([]string{"I 16", "I -5643", "D -1", "D 1", "D 1", "I 123", "D -1"})
+	result := programmers.SolutionBehindBigNumber([]int{9, 1, 5, 3, 6, 2})
 
 	fmt.Println(result)
 }
