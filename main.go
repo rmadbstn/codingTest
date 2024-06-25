@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionBehindBigNumber([]int{9, 1, 5, 3, 6, 2})
+	result := programmers.SolutionChangeWord("hit", "cog", []string{"hot", "dot", "dog", "lot", "log"})
 
 	fmt.Println(result)
 }
