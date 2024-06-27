@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionDeliveryBox([]int{4, 3, 1, 2, 5})
+	result := programmers.SolutionChangeNumber(10, 40, 5)
 
 	fmt.Println(result)
 }
