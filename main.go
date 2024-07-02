@@ -3,11 +3,10 @@ package main
 import (
 	"fmt"
 	"harvey/codingTest/programmers"
-	// 패키지 이름을 올바르게 설정해야 합니다
 )
 
 func main() {
-	result := programmers.SolutionChangeNumber(2, 5, 4)
+	result := programmers.SolutionBestAlbum([]string{"classic", "pop", "classic", "classic", "pop"}, []int{500, 600, 150, 800, 2500})
 
 	fmt.Println(result)
 }
