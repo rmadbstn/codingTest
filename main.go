@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionBestAlbum([]string{"classic", "pop", "classic", "classic", "pop"}, []int{500, 600, 150, 800, 2500})
+	result := programmers.SolutionTruckOnBridge(2, 10, []int{7, 4, 5, 6})
 
 	fmt.Println(result)
 }
