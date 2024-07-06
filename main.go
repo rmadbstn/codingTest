@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionSearchPrimenumber("011")
+	result := programmers.SolutionSearchPrimenumber("0121")
 
 	fmt.Println(result)
 }
