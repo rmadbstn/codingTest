@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionSearchPrimenumber("011")
+	result := programmers.SolutionCreateBigNum("4177252841", 4)
 
 	fmt.Println(result)
 }
