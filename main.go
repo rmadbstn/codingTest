@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionCreateBigNum("4177252841", 4)
+	result := programmers.SolutionPartSeq([]int{1, 1, 1, 2, 3, 4, 5}, 5)
 
 	fmt.Println(result)
 }
