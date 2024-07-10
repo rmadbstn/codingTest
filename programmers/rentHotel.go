@@ -31,13 +31,17 @@ func SolutionRentHotel(book_time [][]string) int {
 		totalGapMin := gapHour*60 + gapMin
 
 		// fmt.Println("시작시간:", startHour, startMin)
-		for i := 0; i < totalGapMin+9; i++ {
+		for i := 0; i < totalGapMin+10; i++ {
 
-			if bookArray[startHour][startMin] == 0 {
-				bookArray[startHour][startMin] = 2
-			} else {
-				bookArray[startHour][startMin]++
+			bookArray[startHour][startMin]++
+
+			// fmt.Println("bookArray추가", startHour, startMin, " 값:", bookArray[startHour][startMin])
+
+			if bookArray[startHour][startMin] > maxResult {
+				maxResult = bookArray[startHour][startMin]
+				// fmt.Println("시간겹쳐:", startHour, startMin)
 			}
+
 			startMin++
 
 			if startMin == 60 {
@@ -45,15 +49,12 @@ func SolutionRentHotel(book_time [][]string) int {
 				startHour++
 			}
 
-			if bookArray[startHour][startMin] > maxResult {
-				maxResult = bookArray[startHour][startMin]
-				// fmt.Println("시간겹쳐:", startHour, startMin)
-			}
-
 		}
 
 		// fmt.Println("종료시간(청소 포함):", startHour, startMin)
-
+		// if startHour == 24 {
+		// 	break
+		// }
 	}
 
 	return maxResult
