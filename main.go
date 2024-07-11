@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionRentHotel([][]string{{"09:10", "10:10"}, {"10:20", "12:20"}})
+	result := programmers.SolutionDivideNumberCard([]int{10, 20}, []int{5, 17})
 
 	fmt.Println(result)
 }
