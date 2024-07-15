@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionDivideNumberCard([]int{10, 20}, []int{5, 17})
+	result := programmers.SolutionUninhabitedIsland([]string{"XXX", "XXX", "XXX"})
 
 	fmt.Println(result)
 }
