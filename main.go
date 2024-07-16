@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionUninhabitedIsland([]string{"XXX", "XXX", "XXX"})
+	result := programmers.SolutionConnectIsland(4, [][]int{{0, 1, 1}, {0, 2, 2}, {1, 2, 5}, {1, 3, 1}, {2, 3, 8}})
 
 	fmt.Println(result)
 }
