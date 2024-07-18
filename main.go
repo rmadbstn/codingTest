@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionConnectIsland(4, [][]int{{0, 1, 1}, {0, 2, 2}, {1, 2, 5}, {1, 3, 1}, {2, 3, 8}})
+	result := programmers.SolutionFarthestNode(6, [][]int{{3, 6}, {4, 3}, {3, 2}, {1, 3}, {1, 2}, {2, 4}, {5, 2}})
 
 	fmt.Println(result)
 }
