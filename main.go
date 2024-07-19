@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionTravelRoute([][]string{{"ICN", "JFK"}, {"HND", "IAD"}, {"JFK", "HND"}})
+	result := programmers.SolutionLicochatRobot([]string{"...D..R", ".D.G...", "....D.D", "D....D.", "..D...."})
 
 	fmt.Println(result)
 }
