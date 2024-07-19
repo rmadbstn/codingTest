@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionLicochatRobot([]string{"...D..R", ".D.G...", "....D.D", "D....D.", "..D...."})
+	result := programmers.SolutionTowerOfHanoi(2)
 
 	fmt.Println(result)
 }
