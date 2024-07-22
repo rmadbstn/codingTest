@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionTowerOfHanoi(2)
+	result := programmers.SolutionImmigration(6, []int{7, 10})
 
 	fmt.Println(result)
 }

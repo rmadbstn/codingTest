@@ -1,7 +1,7 @@
 package programmers
 
 // SolutionTowerOfHanoi는 주어진 원판의 수 n을 1번 기둥에서 3번 기둥으로 옮기는 최소 이동 과정을 반환합니다.
-func SolutionTowerOfHanoi(n int) [][]int {
+func SolutionTowerOfHanoi(n int) [][]int { //3개짜리 하노이는 결국 n개의 기둥을 해당 목적지로 옮기기 위해 n-1개의 기둥을 2번 올기는 작업
 	// 이동 과정을 기록할 슬라이스 선언
 	moves := [][]int{}
 	// 하노이 탑 이동 과정을 재귀적으로 계산하는 함수 호출
