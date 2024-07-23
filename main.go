@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionImmigration(6, []int{7, 10})
+	result := programmers.SolutionContinuousPulse([]int{2, 3, -6, 1, 3, -1, 2, 4})
 
 	fmt.Println(result)
 }
