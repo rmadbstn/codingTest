@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionMole(2, 4)
+	result := programmers.SolutionFindKim([]string{"Jane", "Kim"})
 
 	fmt.Println(result)
 }
