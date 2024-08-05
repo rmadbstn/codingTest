@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionHiddenPhoneNumber("01033334444")
+	result := programmers.SolutionEscapeMaze([]string{"SOOOL", "XXXXO", "OOOOO", "OXXXX", "OOOOE"})
 
 	fmt.Println(result)
 }
