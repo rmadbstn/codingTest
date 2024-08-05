@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionFindKim([]string{"Jane", "Kim"})
+	result := programmers.SolutionHiddenPhoneNumber("01033334444")
 
 	fmt.Println(result)
 }
