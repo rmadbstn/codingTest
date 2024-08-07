@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionEscapeMaze([]string{"SOOOL", "XXXXO", "OOOOO", "OXXXX", "OOOOE"})
+	result := programmers.SolutionSameSumTwoQueue([]int{1, 1, 1, 1}, []int{1, 1, 7, 1})
 
 	fmt.Println(result)
 }
