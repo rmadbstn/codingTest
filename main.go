@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionSameSumTwoQueue([]int{1, 1, 1, 1}, []int{1, 1, 7, 1})
+	result := programmers.SolutionProceedAssignment([][]string{{"korean", "11:40", "30"}, {"english", "12:10", "20"}, {"math", "12:30", "40"}})
 
 	fmt.Println(result)
 }
