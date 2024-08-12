@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := programmers.SolutionProceedAssignment([][]string{{"korean", "11:40", "30"}, {"english", "12:10", "20"}, {"math", "12:30", "40"}})
+	result := programmers.SolutionTwoCirclesDot(2, 3)
 
 	fmt.Println(result)
 }
