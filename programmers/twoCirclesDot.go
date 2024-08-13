@@ -1,27 +1,30 @@
 package programmers
 
 import (
-	"fmt"
 	"math"
 )
 
-func SolutionTwoCirclesDot(r1 int, r2 int) int64 {
-	// 평면에서 x축 y축 위의 점들과 그 외의 점들을 따로 계산해서 4를 곱하자.
+func SolutionTwoCirclesDot(r1, r2 int64) int64 {
+	answer := int64(0)
 
-	// x축, y축 위의 점들
-	result := int64((r2 - r1 + 1) * 4)
-
-	for i := 1; i < r2; i++ {
-		minJ := 0
-		if i <= r1 {
-			minJ = int(math.Ceil(math.Sqrt(float64(r1*r1 - i*i))))
+	for y := int64(1); y <= r2; y++ {
+		var minX int64
+		if r1*r1-y*y > 0 {
+			minX = int64(math.Ceil(math.Sqrt(float64(r1*r1 - y*y))))
+		} else {
+			minX = 0
 		}
-		maxJ := int(math.Floor(math.Sqrt(float64(r2*r2 - i*i))))
+		maxX := int64(math.Floor(math.Sqrt(float64(r2*r2 - y*y))))
 
-		fmt.Println(minJ, maxJ)
-
-		result += int64((maxJ - minJ + 1) * 4)
+		if maxX == minX && minX != 0 {
+			answer += 1
+		} else if maxX != minX {
+			answer += (maxX - minX + 1)
+		} else {
+			answer += 1
+		}
 	}
 
-	return result
+	// 곱셈을 통해 대칭성을 고려합니다.
+	return answer * 4
 }
