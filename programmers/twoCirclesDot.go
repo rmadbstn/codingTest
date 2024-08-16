@@ -28,3 +28,5 @@ func SolutionTwoCirclesDot(r1, r2 int64) int64 {
 	// 곱셈을 통해 대칭성을 고려합니다.
 	return answer * 4
 }
+
+//2024.08.16
